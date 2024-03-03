@@ -1,0 +1,115 @@
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .remember img {
+    width: unset !important;
+  }
+  .calculator {
+    width: unset !important;
+  }
+  .right-img-head {
+    width: unset !important;
+  }
+  .curriculum-head {
+    margin-right: 1rem;
+  }
+  .line {
+    margin: 15px 0;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+  .right-img-head {
+    width: unset;
+  }
+  .brif {
+    flex-direction: column;
+  }
+  .curriculum-head {
+    flex-direction: column;
+    width: unset;
+    height: unset;
+  }
+  .calculator {
+    width: unset;
+  }
+  .content-head {
+    align-items: unset;
+  }
+  .img-box {
+    height: unset;
+  }
+  .line {
+    margin: 15px 0;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .brif {
+    flex-direction: column;
+  }
+  .curriculum-head {
+    width: unset;
+    height: unset;
+  }
+  .remember {
+    height: unset;
+  }
+  .cal-img-main {
+    flex-direction: column;
+  }
+  .calculator {
+    height: unset;
+    width: unset;
+  }
+  .clg-img {
+    height: unset;
+    width: unset;
+  }
+  .right-img-head {
+    width: unset;
+  }
+  .main-head h1 {
+    font-size: 45px !important;
+    line-height: 1.4;
+  }
+  .img-text {
+    margin-left: 0 !important;
+    margin-top: 12px;
+  }
+  .icons {
+    flex-direction: column;
+  }
+  .right span i {
+    margin: 20px 16px 0 10px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  .icons {
+    flex-direction: row !important;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+  .content-head {
+    flex-direction: column;
+  }
+
+  .entire {
+    margin: 1.5rem 0;
+  }
+  .content {
+    width: unset;
+  }
+  .line {
+    margin: 15px 0;
+  }
+  .main-head h1 {
+    font-size: 76px;
+  }
+  .img-text {
+    margin-left: 20px;
+  }
+  .img-box {
+    height: unset;
+  }
+  .container {
+    padding: 0 5rem;
+  }
+}

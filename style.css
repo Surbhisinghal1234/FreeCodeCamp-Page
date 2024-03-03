@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Libre Baskerville", serif;
+}
+/* font-family: "Anton", sans-serif; */
+/* font-family: "Raleway", sans-serif; */
+.container {
+  padding: 0 8rem;
+}
+
+body {
+  background-color: rgb(20, 30, 40);
+}
+/* *********************************
+    *******FREE CODE CAMP IMAGE******
+    *********************************  */
+.img-box {
+  height: 100vh;
+  width: 100%;
+}
+.img-box img {
+  height: 100%;
+  width: 100%;
+}
+
+/* *********************************
+*************HEADING ****************
+********************************* */
+
+.main-head {
+  text-align: center;
+  color: #fff;
+  color: orangered;
+  margin: 1rem 0;
+}
+.main-head h1 {
+  font-family: "Anton", sans-serif;
+  color: orangered;
+  font-size: 85px;
+}
+
+/* *****************************
+*************ICONS***************
+*********************************  */
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  color: #fff;
+}
+.right span i {
+  margin: 0 20px;
+}
+
+/* *********************************
+***************CONTENT-ONE***************
+*********************************  */
+.content-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  color: #fff;
+}
+.content {
+  width: 33%;
+  text-align: justify;
+}
+
+/* *********************************
+***********CONTENT & IMAGES**********
+*********************************  */
+.brif {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.entire {
+  margin: 0 20px;
+}
+.entire h3 {
+  color: #00beef;
+  padding: 13px 0 0 9px;
+  width: 86%;
+  margin: auto;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 23px;
+}
+
+.line {
+  margin: 15px 0;
+  border: 1px solid #ffffff50;
+}
+.line-top {
+  margin-top: 20px;
+  border: 1px solid #ffffff22;
+}
+.left span {
+  color: #ffffffa4;
+  font-size: 15px;
+}
+
+.remember {
+  height: 428px;
+}
+.remember img {
+  width: 100%;
+  height: 100%;
+}
+.curriculum-head {
+  display: flex;
+  flex-direction: column;
+  width: 31%;
+  color: white;
+  height: 1390px;
+}
+.curriculum {
+  margin-bottom: 25px;
+}
+.curriculum p {
+  text-align: justify;
+}
+.calculator {
+  height: 425px;
+  width: 580px;
+}
+.img-text {
+  width: 250px;
+  color: #fff;
+  text-align: center;
+  color: #00beef;
+  line-height: 1.4;
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+}
+.calculator img {
+  width: 100%;
+  height: 100%;
+}
+.cal-img-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.clg-img {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  margin-top: 1rem;
+}
+.clg-img img {
+  height: 100%;
+  width: 100%;
+}
+.curriculum h3 {
+  color: #00beef;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+}
+.before-s p:before {
+  content: "S ";
+  color: red;
+  font-family: "Tahoma", Times New Roman;
+  font-size: 40px;
+  float: left;
+  padding-right: 5px;
+}
+.people {
+  margin-bottom: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.304);
+}
+.right-img-head {
+  width: 67%;
+}
